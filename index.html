@@ -4,19 +4,29 @@
     <meta charset="utf-8">
     <title>How much did you f*ck up!</title>
     <link rel="stylesheet" href="howmuch.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
   </head>
   <body>
+    <div class="jumbotron" id="main">
 <h1>How much did you f*ck up?</h1>
-  </body>
-  <script src="howmuch.js"></script>
-</html>
-
+<br>
 <form class="" action="index.html" method="post">
   <div class="">
-    I'ts July of 2010. People are starting to trade Bitcoin seriously. Other people watch TV, eat dinner and buy pizza.
+    I'ts July of 2010. Some people are starting to take Bitcoin seriously.
+    <br>Other people watch TV, eat dinner and buy pizza.
   </div>
+  <br>
   <label for="number">Enter how much USD could you invest:</label>
+  <br>
   <input id="number" type="text" name="" value="">
-  <button type="button" name="button" onclick="calculate();">Calculate</button>
+  <br>
+  <br>
+  <button type="button" name="button" class="btn btn-secondary" onclick="calculate();">Calculate</button>
+  <br>
+  <br>
   <p id="calculated">You could have today: <b><span id="newnumber">--</span></b> $</p>
+  </div>
 </form>
+</body>
+<script src="howmuch.js"></script>
+</html>
